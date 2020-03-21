@@ -4,15 +4,11 @@ let money = prompt("Ваш бюджет на месяц?", ""),
     spending = prompt("Введите обязательную статью расходов в этом месяце"),
     totalCost = prompt("Во сколько обойдется?"),
 
-    appData = {
+appData = {
         butget: money,
         timeData: time,
-    }
-        expenses = {
-            name: "spending" + "totalCost",
-        }
-    optionalExpenses = {
-
-    }
-    income = [];
-    savings = false;
+        expenses: {},
+        optionalExpenses: {},
+    income: [],
+    savings: false
+    };
